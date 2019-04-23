@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    border: solid;
+    margin: none;
+}
+.header{
+    height: 100px;
+    background-color: bisque;
+    padding: 10px;
+}
+
+
+.header img{
+    height: 100px;
+    width: 100px;
+
+    transition: 10s
+}
+.header ul{
+    float: left
+}
+.header input search{
+    width: 100px;
+    height: 10px;
+}
+
+.navbar{
+    height: 50px;
+    background-color: beige;
+    border: solid rebeccapurple;
+
+}
+.navbar h2{
+    padding-top: 10px;
+}
+.ul li {
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    
+}
+.ul li a{
+    list-style: 80px;
+    padding: 20px 50px;
+    font-weight: bold
+}
+
+.container::after{
+    content: "";
+    display: block;
+    clear: both;
+    margin: 0%
+}
+
+.left-panel{
+    width: 25%;
+    height: 600px;
+    background-color: rgb(231, 231, 60);
+    float: left;
+    
+}
+.ul2{
+    padding-left: 50px;
+    
+    
+}
+.right-section{
+    width: 75%;
+    height: 600px;
+    background-color: aqua;
+    float: right
+
+
+}
+.right-section img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 300px;
+    margin-left: 5px
+
+}
+.right-section p{
+    padding-left: 5px;
+}
+.footer{
+    height: 100px;
+    background-color: black;
+
+}
+.footer h4{
+    float: left;
+    font-size: 15px;
+}
+.footer h4{
+    margin-right: 150px;
+    padding: 30px;
+    font-size: 30px;
+    color: aliceblue;
+    word-spacing: 100px
+}
+    
